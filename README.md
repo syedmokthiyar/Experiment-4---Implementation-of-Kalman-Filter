@@ -16,7 +16,6 @@ Reg No: 212222230156
 ```
 ```
 import numpy as np
-
 class KalmanFilter:
   def __init__(self,F,H,Q,R,x0,P0):
     self.F=F
